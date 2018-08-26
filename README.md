@@ -3,7 +3,7 @@ A google chrome extension designed for removing Facebook NewsFeed contents and s
 
 ## Getting started
 
-### Recommendation
+### Requirements
 Google Chrome or Chromium browser
 
 ### Installation
