@@ -6,7 +6,8 @@ A google chrome extension designed for removing Facebook NewsFeed contents and s
 ### Recommendation
 Google Chrome or Chromium browser
 
-Download this entire folder <br>
-Go to [Extensions](chrome://extensions/) and enable developer mode. <br>
-Click "Load unpacked" & select the folder you downloaded <br>
+### Installation
+1. Download this entire folder <br>
+2. Go to [Extensions](chrome://extensions/) and enable developer mode. <br>
+3. Click "Load unpacked" & select the folder you downloaded <br>
 
