@@ -1,0 +1,38 @@
+{
+  
+  "manifest_version": 2,
+  "name": "Facebook Overload",
+  "version": "1.0",
+  "description": "Get less distracted by facebook newsfeed ",
+  "icons": {
+      "128": "icon128.png",
+      "48": "icon48.png",
+      "16": "icon16.png" 
+  },
+
+  "page_action": {
+      "default_icon": "icon16.png",
+      "default_popup": "popup.html"
+  },
+
+
+  "content_scripts":[
+        {
+            "matches":    ["https://www.facebook.com/"],
+            "js": ["content.js", "jquery-3.3.1.min.js"],
+            "css": ["content.css"]
+        }
+  ],
+
+  "background":{
+      "scripts": ["eventPage.js"],
+      "persistent": false
+  }, 
+  "permissions": [
+      "tabs",
+      "https://www.youtube.com/"
+  ]
+
+
+
+}
