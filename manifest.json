@@ -18,7 +18,7 @@
 
   "content_scripts":[
         {
-            "matches":    ["https://www.facebook.com/"],
+            "matches":    ["https://www.facebook.com/*"],
             "js": ["content.js", "jquery-3.3.1.min.js"],
             "css": ["content.css"]
         }
